@@ -1,0 +1,18 @@
+.box {
+  background-color: rgb(92, 91, 91);
+}
+
+.item {
+  width: 320px;
+  height: 400px;
+  color: black;
+  transition: transform 1s ease;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top {
+  object-fit: cover;
+}
